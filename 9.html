@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          #box{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            border: 2px solid red;
+            margin: auto;
+          }
+          button{
+            display: block;
+            margin: auto;
+            margin-top: 150px;
+        
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            transition: ease 3s;
+          }
+    </style>
+</head>
+<body>
+    <div id="box"></div>
+    <button>on</button>
+    <script>
+        var bulb=document.querySelector("#box");
+        var btn=document.querySelector("button");
+        var a=0;
+        // btn.addEventListener("click",function(){
+        //     if(a === 0){
+        //     bulb.style.backgroundColor="orange";
+        //     btn.innerHTML="on"
+        //     a =1;}else{
+        //     bulb.style.backgroundColor ="transparent"
+        //     a=0;
+        //     btn.innerHTML="off"}
+        // }
+
+
+
+
+        btn.addEventListener("mouseover",function(){
+btn.style.top = "300px"
+btn.style.left = "250px"
+        })
+    
+    </script>
+</body>
+</html>
